@@ -1,9 +1,9 @@
 {
   "name": "wrap-winston",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A winston wrapper",
-  "main": "dist/src/index.js",
-  "types": "dist/src/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "init": "tsc --init"
