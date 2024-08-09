@@ -1,0 +1,34 @@
+{
+  "name": "wrap-winston",
+  "version": "0.0.1",
+  "description": "A winston wrapper",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "init": "tsc --init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vcgtz/wrap-winston.git"
+  },
+  "keywords": [
+    "winston",
+    "logger",
+    "log"
+  ],
+  "author": "Vicente Gutiérrez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vcgtz/wrap-winston/issues"
+  },
+  "homepage": "https://github.com/vcgtz/wrap-winston#readme",
+  "devDependencies": {
+    "@types/node": "^22.1.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@logtail/node": "^0.5.0",
+    "@logtail/winston": "^0.5.0"
+  }
+}
