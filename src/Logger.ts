@@ -95,6 +95,7 @@ export class Logger {
   private log(level: LogLevel, message: string, metadata?: LoggerMetadata): void {
     this.logger.log(level, message, {
       ...this.metadata,
+      ...metadata,
     });
   }
 
